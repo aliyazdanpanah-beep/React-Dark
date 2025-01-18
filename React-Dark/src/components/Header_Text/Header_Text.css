@@ -17,7 +17,21 @@
 }
 
 .Button1_Header {
-  margin-top: 30px;
+  margin-top: 60px;
+  padding: 10px 25px;
+  color: var(--TC);
+  outline: none;
+  border-radius: 25px;
   background-color: #fff;
   border: 1px solid #fff;
+}
+
+.Button2_Header {
+     margin-top: 40px;
+     padding: 13px 35px;
+     color: #fff;
+     outline: none;
+     border-radius: 25px;
+     background-color: var(--BB);
+     border: 1px solid var(--BB);
 }

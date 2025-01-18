@@ -53,3 +53,7 @@
   width: 100%;
   transition: all ease-in 0.5s;
 }
+
+h2 {
+  color: #fff;
+}
