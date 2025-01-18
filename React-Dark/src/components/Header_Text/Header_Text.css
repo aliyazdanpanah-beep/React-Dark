@@ -11,27 +11,45 @@
 }
 
 .HeaderText_Wrapper {
-  background-color: #6A4A33;
+  /* background-color: #6A4A33; */
   text-align: center;
   padding: 50px 0;
 }
 
 .Button1_Header {
+  cursor: pointer;
   margin-top: 60px;
   padding: 10px 25px;
-  color: var(--TC);
+  color: #fff;
   outline: none;
   border-radius: 25px;
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: var(--BB);
+  border: 1px solid var(--BB);
 }
 
 .Button2_Header {
-     margin-top: 40px;
-     padding: 13px 35px;
-     color: #fff;
-     outline: none;
-     border-radius: 25px;
-     background-color: var(--BB);
-     border: 1px solid var(--BB);
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 13px 35px;
+  color: #fff;
+  outline: none;
+  border-radius: 25px;
+  background-color: var(--BB);
+  border: 1px solid var(--BB);
+}
+
+/* .Button1_Header:active {
+  color: #fff;
+  border-color: var(--BB);
+  background-color: var(--BB);
+}
+
+.Button2_Header:active {
+  color: #000;
+  border: #fff;
+  background-color: #fff;
+} */
+
+h2 {
+  color: #000;
 }

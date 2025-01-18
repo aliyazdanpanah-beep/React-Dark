@@ -15,7 +15,7 @@
   padding: 40px 0;
   font-size: 15px;
   align-items: center;
-  background-color: #6A4A33;
+  /* background-color: #6A4A33; */
   justify-content: space-between;
 }
 
@@ -56,4 +56,34 @@
 
 h2 {
   color: #fff;
+}
+
+#icon {
+  cursor: pointer;
+  position: fixed;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  top: 1%;
+  right: 1%;
+}
+
+#Navbar {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: -200px;
+  height: 200px;
+  background-color: var(--FQ);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+#Navbar span {
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
 }
