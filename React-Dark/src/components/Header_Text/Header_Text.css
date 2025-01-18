@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --TC: #808080;
+  --BB: #5B2BE9;
+}
+
+.HeaderText_Wrapper {
+  background-color: #6A4A33;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.Button1_Header {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
