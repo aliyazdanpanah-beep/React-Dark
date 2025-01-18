@@ -12,6 +12,25 @@
 
 .header_wrapper {
   display: flex;
+  padding: 20px 0;
   align-items: center;
   justify-content: space-between;
+}
+
+.header_part span{
+  margin: 0 10px;
+  cursor: pointer;
+  color: var(--HC);
+}
+
+.header_part span:nth-child(1) {
+  color: #000;
+}
+
+.header_part span:nth-child(5) {
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 5px;
+  background-color: var(--FQ);
+  border: 1px solid var(--FQ);
 }

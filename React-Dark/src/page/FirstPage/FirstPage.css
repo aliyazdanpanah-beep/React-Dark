@@ -1,0 +1,10 @@
+.Header {
+  /* background-image: url('./metion_tipe.jpg'); */
+  background-color: magenta;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+Header {
+  background-color: magenta;
+}
