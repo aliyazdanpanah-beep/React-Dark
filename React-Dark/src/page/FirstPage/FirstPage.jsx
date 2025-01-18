@@ -2,8 +2,10 @@ import Header from "../../components/Header/Header"
 
 const FirstPage = () => {
   return (
-    <Header />
-  )
+    <div className="First_Page">
+      <Header />
+    </div>
+)
 }
 
 export default FirstPage
