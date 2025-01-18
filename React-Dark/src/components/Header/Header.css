@@ -12,7 +12,8 @@
 
 .header_wrapper {
   display: flex;
-  padding: 20px 0;
+  padding: 40px 0;
+  font-size: 15px;
   align-items: center;
   justify-content: space-between;
 }
@@ -21,6 +22,7 @@
   margin: 0 10px;
   cursor: pointer;
   color: var(--HC);
+  position: relative;
 }
 
 .header_part span:nth-child(1) {
@@ -33,4 +35,20 @@
   border-radius: 5px;
   background-color: var(--FQ);
   border: 1px solid var(--FQ);
+}
+
+.header_part span::before {
+  content: "";
+  width: 0;
+  height: 1.5px;
+  left: 0;
+  top: 100%;
+  position: absolute;
+  background-color: var(--HC);
+  transition: all ease-in 0.5s;
+}
+
+.header_part span:hover::before {
+  width: 100%;
+  transition: all ease-in 0.5s;
 }
