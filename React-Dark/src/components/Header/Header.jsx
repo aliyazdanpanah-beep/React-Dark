@@ -1,4 +1,3 @@
-import { IoIosMenu } from "react-icons/io"
 import "./Header.css"
 
 const Header = () => {
@@ -30,7 +29,6 @@ const Header = () => {
         <span>Job</span>
       </div>
 
-      <IoIosMenu onClick={Icon} id="icon" />
      
       <div className="header_part"> <span>DarkHome</span> </div>
 
