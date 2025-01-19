@@ -1,0 +1,35 @@
+:root {
+  --bB: #5b2be9;
+}
+
+.MineRight_Wrapper {
+  width: 45%;
+  text-align: left;
+}
+
+.MineRight_BTN {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 15px 50px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 110px;
+  background-color: var(--bB);
+}
+
+.MineRight_Wrapper h1 {
+  margin-bottom: 90px;
+  font-size: 35px;
+}
+
+.MineRight_Wrapper p {
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+.MineRight_BTN:active {
+  box-shadow: 2 2 2 5px red;
+  transition: all ease-in 0.5s;
+}

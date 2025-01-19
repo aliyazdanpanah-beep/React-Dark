@@ -3,5 +3,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #131313;
   justify-content: space-around;
+  color: aliceblue;
 }
