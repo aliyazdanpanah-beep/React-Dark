@@ -16,6 +16,11 @@ const Navbar = () => {
 
   return (
     <div className="Navbar_wrapper">
+      <div id="Navbar">
+        <span>Home</span>
+        <span>New</span>
+        <span>Job</span>
+      </div>
       <IoIosMenu onClick={Icon} id="icon" />
     </div>
   );
