@@ -4,12 +4,17 @@ import "./Navbar.css";
 const Navbar = () => {
   const Icon = () => {
     const Navbar = document.getElementById("Navbar");
+    const icon = document.getElementById("icon")
 
-    if (Navbar.style.top == "-200px") {
+    if (Navbar.style.top == "-100vh") {
       Navbar.style.top = "0";
+      icon.style.color = "#fff"
+      icon.style.transition = "all ease-in 0.3s"
       Navbar.style.transition = "all ease-in 1s";
     } else {
-      Navbar.style.top = "-200px";
+      Navbar.style.top = "-100vh";
+      icon.style.color = "#000"
+      icon.style.transition = "all ease-in 1s"
       Navbar.style.transition = "all ease-in 1s";
     }
   };

@@ -1,6 +1,7 @@
 :root {
   --HC: #808080;
-  --FQ: #5b2be9;
+  --FQ: #5B2BE9;
+  --NB: #5b2be9b4;
 }
 
 #icon {
@@ -18,9 +19,10 @@
   z-index: 1;
   right: 0;
   left: 0;
-  top: -200px;
-  height: 200px;
-  background-color: var(--FQ);
+  top: -100vh;
+  height: 100vh;
+  background-color: var(--NB);
+  backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
   justify-content: space-around;
