@@ -1,3 +1,5 @@
+import "./MainLeft.css"
+
 const MineLeft = () => {
   return (
      <div className="MineLeft_Wrapper">
