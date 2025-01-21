@@ -5,11 +5,25 @@ import Photo from "./metion_tipe.jpg"
 import "./FirstPage.css"
 
 const FirstPage = () => {
+
+  const db = [
+    {
+      id: 1,
+      titel: ""
+    },
+    {
+      id: 2,
+      titel: ""
+    }
+  ]
+  
   return (
     <div className="First_Page">
-      <Navbar />
       <Header className="Header" />
-      <HeeaderText style = {{backgroundImage:{Photo}}}/>
+      <HeeaderText />
+      {db.map((DataBase => (
+        <Navbar data = {DataBase} key={DataBase.id} />
+      )))}
     </div>
 )
 }
