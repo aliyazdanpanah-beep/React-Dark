@@ -9,7 +9,9 @@ const FirstPage = () => {
   const db = [
     {
       id: 1,
-      titel: ""
+      home: "Home",
+      job: "Job",
+      new: "New"
     }
   ]
   

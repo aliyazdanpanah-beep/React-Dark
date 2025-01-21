@@ -19,15 +19,15 @@ const Navbar = (props) => {
     }
   };
 
-  const data = props.data
-  console.log(data)
+  // const data = props.data
+  // console.log(props.data.titel)
 
   return (
     <div className="Navbar_wrapper">
       <div id="Navbar">
-        <span>Home</span>
-        <span>New</span>
-        <span>Job</span>
+        <span> {props.data.home} </span>
+        <span> {props.data.job} </span>
+        <span> {props.data.new} </span>
       </div>
       <IoIosMenu onClick={Icon} id="icon" />
     </div>
