@@ -1,7 +1,7 @@
 import { IoIosMenu } from "react-icons/io";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const Icon = () => {
     const Navbar = document.getElementById("Navbar");
     const icon = document.getElementById("icon")
@@ -18,6 +18,9 @@ const Navbar = () => {
       Navbar.style.transition = "all ease-in 1s";
     }
   };
+
+  const data = props.data
+  console.log(data)
 
   return (
     <div className="Navbar_wrapper">
