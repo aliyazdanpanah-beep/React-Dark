@@ -10,10 +10,6 @@ const FirstPage = () => {
     {
       id: 1,
       titel: ""
-    },
-    {
-      id: 2,
-      titel: ""
     }
   ]
   
