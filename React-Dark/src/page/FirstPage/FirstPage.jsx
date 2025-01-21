@@ -14,14 +14,16 @@ const FirstPage = () => {
 
     // API call
 
-    setNavbar [
-      {
-        id: 1,
-        home: "Home",
-        job: "Job",
-        new: "New"
-      }
-    ]
+    setNavbar(
+      [
+        {
+          id: 1,
+          home: "Home",
+          job: "Job",
+          new: "New"
+        }
+      ]
+    )
 
   }, []);
 
@@ -29,7 +31,7 @@ const FirstPage = () => {
     <div className="First_Page">
       <Header className="Header" />
       <HeeaderText />
-      {db.map((DataBase) => (
+      {navbar.map((DataBase) => (
         <Navbar data={DataBase} key={DataBase.id} />
       ))}
     </div>
