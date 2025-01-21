@@ -2,12 +2,12 @@ import Header from "../../components/Header/Header";
 import HeeaderText from "../../components/Header_Text/Header_Text";
 import Navbar from "../../components/Navbar/Navbar";
 import { useEffect, useState } from "react";
-import Photo from "./metion_tipe.jpg";
 import "./FirstPage.css";
 
 const FirstPage = () => {
 
   const [navbar, setNavbar] = useState([])
+  const [text, setText] = useState()
 
 
   useEffect(() => {
@@ -23,6 +23,10 @@ const FirstPage = () => {
           new: "New"
         }
       ]
+    )
+
+    setText(
+      <h1>Ali</h1> 
     )
 
   }, []);
