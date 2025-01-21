@@ -13,9 +13,8 @@ const db = [
 const SecendPage = () => {
   return (
      <div className="SecendPage_Wrapper">
-       <MineLeft  />
+       <MineLeft />
        <MineRight />
-       {db.map((buttun => {}))}
      </div>
   )
 }
