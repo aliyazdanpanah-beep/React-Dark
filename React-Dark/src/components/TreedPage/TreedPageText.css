@@ -1,0 +1,36 @@
+.Text_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("Forst.jpg");
+  background-size: cover;
+}
+
+.Text_wrapper div {
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  padding: 100px 150px;
+}
+
+.Text_wrapper p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Text_wrapper button {
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #808080;
+  font-size: 15px;
+}
+
+.Text_wrapper button:active {
+  background-color: #5A35E9;
+  color: #fff;
+}

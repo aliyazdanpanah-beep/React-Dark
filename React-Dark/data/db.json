@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "stusos": true,
+    "stutos": true,
     "data": [
       {
         "id": 1,
@@ -9,5 +9,13 @@
         "new": "New"
       }
     ]
+  },
+
+  "articels": {
+    "stutos": true,
+    "data": {
+      "id": 1,
+      "text": "API call"
+    }
   }
 }
