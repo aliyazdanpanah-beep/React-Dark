@@ -2,6 +2,7 @@ import Header from "../../components/Header/Header";
 import HeeaderText from "../../components/Header_Text/Header_Text";
 import Navbar from "../../components/Navbar/Navbar";
 import { useEffect, useState } from "react";
+import axios from "axios"
 import "./FirstPage.css";
 
 const FirstPage = () => {
@@ -16,12 +17,16 @@ const FirstPage = () => {
 
     setNavbar(
       [
-        {
-          id: 1,
-          home: "Home",
-          job: "Job",
-          new: "New"
-        }
+        // {
+        //   id: 1,
+        //   home: "Home",
+        //   job: "Job",
+        //   new: "New"
+        // }
+
+        axios.get("http://localhost:8000/navbar").then((res) => {
+          setNavbar(res.data.data)
+        })
       ]
     )
 

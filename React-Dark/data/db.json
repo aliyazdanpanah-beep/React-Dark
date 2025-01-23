@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "stusos": true,
+    "data": [
+      {
+        "id": 1,
+        "home": "Home",
+        "job": "Job",
+        "new": "New"
+      }
+    ]
+  }
+}
