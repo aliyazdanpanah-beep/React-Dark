@@ -1,12 +1,14 @@
-import Text from "../../components/TreedPage/TreedPageText";
+import { useEffect, useState } from "react";
+import axios from "axios";
 import "./TreedPage.css";
+import Text from "../../components/TreedPage/TreedPageText";
 
 const TreedPage = () => {
   return (
-    <div className="TreedPage">
+    <div>
       <Text />
-    </div>
-  );
+    </div>     
+  )
 };
 
 export default TreedPage;
