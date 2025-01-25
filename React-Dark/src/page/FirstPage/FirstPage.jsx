@@ -23,13 +23,13 @@ const FirstPage = () => {
         setFirstPage(result.data);
       })
     );
-  }, []);
+  }, [2]);
 
   return (
     <div className="First_Page" key={FirstPage.id}>
       <Header className="Header" />
 
-      <HeeaderText/>
+      <HeeaderText firstpage={firstpage} />
 
       {navbar.map((DataBase) => (
         <Navbar data={DataBase} key={DataBase.id} />

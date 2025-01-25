@@ -4,9 +4,9 @@
     "data": [
       {
         "id": 1,
-        "home": "Home",
-        "job": "Job",
-        "new": "New"
+        "home": "Get data from API",
+        "job": "Get data from API",
+        "new": "Get data from API"
       }
     ]
   },
