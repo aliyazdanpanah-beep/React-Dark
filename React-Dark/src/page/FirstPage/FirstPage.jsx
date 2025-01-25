@@ -39,7 +39,8 @@ const FirstPage = () => {
   useEffect(() => {
     setFirstPage([
       axios.get("http://localhost:8000/firstpage").then((result) => {
-        setFirstPage(result.data.data);
+        const elemtext = result.data
+        console.log(elemtext)
       }),
     ]);
   }, []);
@@ -48,9 +49,11 @@ const FirstPage = () => {
     <div className="First_Page">
       <Header className="Header" />
 
-      {firstpage.map((text) => {
-        <HeeaderText text={text} key={text.id} />;
-      })}
+      {/* <HeeaderText /> */}
+
+      {/* {firstpage.map((text) => {
+        <HeeaderText elemtext={text} key={text.id} />;
+      })} */}
 
       {navbar.map((DataBase) => (
         <Navbar data={DataBase} key={DataBase.id} />
