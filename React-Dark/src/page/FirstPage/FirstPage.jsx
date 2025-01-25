@@ -7,7 +7,7 @@ import "./FirstPage.css";
 
 const FirstPage = () => {
   const [navbar, setNavbar] = useState([]);
-  const [firstpage, setFirstPage] = useState([]);
+  const [firstpage, setFirstPage] = useState("");
 
   useEffect(() => {
     // API call
