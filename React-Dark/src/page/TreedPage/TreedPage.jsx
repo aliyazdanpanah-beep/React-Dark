@@ -16,7 +16,7 @@ const TreedPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="Treedpage">
       <Text />
     </div>
   );

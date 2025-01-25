@@ -11,11 +11,14 @@
     ]
   },
 
-  "articels": {
+  "firstpage": {
     "stutos": true,
-    "data": {
-      "id": 1,
-      "text": "API call"
-    }
+    "data": [
+      {
+        "text": "Unloke the Power of Dark:",
+        "firstBTN": "Discover the Difference",
+        "secendBTN": "Experience the Extraordinary"
+      }
+    ]
   }
 }
