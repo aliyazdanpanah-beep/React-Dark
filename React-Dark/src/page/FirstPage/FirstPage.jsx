@@ -13,47 +13,23 @@ const FirstPage = () => {
     // API call
 
     setNavbar([
-      // {
-      //   id: 1,
-      //   home: "Home",
-      //   job: "Job",
-      //   new: "New"
-      // }
-
       axios.get("http://localhost:8000/navbar").then((res) => {
         setNavbar(res.data.data);
-
-        // axios.get("http://localhost:8000/firstpage").then((firstpage) => {
-
-        // })
       }),
     ]);
 
-    // setFirstPage([
-    //   axios.get("http://localhost:8000/firstpage").then((firstpage) => {
-    //     setFirstPage(firstpage.data.data)
-    //   })
-    // ])
-  }, []);
-
-  useEffect(() => {
-    setFirstPage([
+    setFirstPage(
       axios.get("http://localhost:8000/firstpage").then((result) => {
-        const elemtext = result.data
-        console.log(elemtext)
-      }),
-    ]);
+        setFirstPage(result.data);
+      })
+    );
   }, []);
 
   return (
-    <div className="First_Page">
+    <div className="First_Page" key={FirstPage.id}>
       <Header className="Header" />
 
-      {/* <HeeaderText /> */}
-
-      {/* {firstpage.map((text) => {
-        <HeeaderText elemtext={text} key={text.id} />;
-      })} */}
+      <HeeaderText/>
 
       {navbar.map((DataBase) => (
         <Navbar data={DataBase} key={DataBase.id} />

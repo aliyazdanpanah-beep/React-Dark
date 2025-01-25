@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "stutos": true,
+    "statos": true,
     "data": [
       {
         "id": 1,
@@ -12,11 +12,12 @@
   },
 
   "firstpage": {
-    "stutos": true,
+    "statos": true,
     "data": [
       {
-        "text": "Unloke the Power of Dark:",
-        "firstBTN": "Discover the Difference",
+        "id": 2,
+        "text": "Get data from API",
+        "firstBTN": "Get data from API",
         "secendBTN": "Experience the Extraordinary"
       }
     ]

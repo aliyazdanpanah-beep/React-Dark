@@ -1,13 +1,11 @@
 import "./Header_Text.css"
 
 const HeeaderText = (props) => {
-  console.log(props.data)
   return (
     <div className="HeaderText_Wrapper">
-      <h2> Unloke the Power of Dark: </h2>
-      {/* <h2> {props.data.text} </h2> */}
+      <h2>ALI</h2>
 
-      <button className="Button1_Header"> Discover the Difference </button>
+      <button className="Button1_Header"> Ali </button>
       <br />
       <button className="Button2_Header"> Experience the Extraordinary </button>
     </div>
