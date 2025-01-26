@@ -1,18 +1,7 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import "./FourdPage.css";
 
 const FourdPage = () => {
-  const [link, setLink] = useState("");
-
-  useEffect(() => {
-    setLink([
-      axios.get("http://localhost:8000/links").then((result) => {
-        setLink(result.data);
-      }),
-    ]);
-  }, []);
   return (
     <div className="FourPage">
       <div className="Links_wrapper">

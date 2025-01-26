@@ -11,27 +11,6 @@
     ]
   },
 
-  "firstpage": {
-    "statos": true,
-    "data": [
-      {
-        "id": 2,
-        "text": "Get data from API",
-        "firstBTN": "Get data from API",
-        "secendBTN": "Experience the Extraordinary"
-      }
-    ]
-  },
-
-  "links": {
-    "statos": true,
-    "data": [
-      {
-        "id": 3,
-        "text": "API"
-      }
-    ]
-  },
   "About": {
     "statos": true,
     "data": [
