@@ -1,0 +1,16 @@
+.FourPage {
+  display: flex;
+  padding: 50px 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Links_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Links_wrapper span {
+  display: inline-block;
+}
