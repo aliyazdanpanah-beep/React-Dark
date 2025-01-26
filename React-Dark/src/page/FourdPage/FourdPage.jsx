@@ -7,15 +7,16 @@ const FourdPage = () => {
   const [link, setLink] = useState("");
 
   useEffect(() => {
-    setLink([axios.get("http://localhost:8000/links").then((result) => {
-      const API =  setLink(result.data)
-      console.log(API)
-    })]);
+    setLink([
+      axios.get("http://localhost:8000/links").then((result) => {
+        setLink(result.data);
+      }),
+    ]);
   }, []);
   return (
     <div className="FourPage">
       <div className="Links_wrapper">
-        <Link className="links">Link</Link>
+        <Link className="links"> Link </Link>
         <br />
         <br />
         <br />
