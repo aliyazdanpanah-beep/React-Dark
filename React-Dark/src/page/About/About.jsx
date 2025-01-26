@@ -1,11 +1,14 @@
 import Header from "../../components/Header/Header"
+import "./About.css"
 
 
 const About = () => {
   return (
     <div className="About_Page">
       <Header />
-      <h2>this is About</h2>
+      <div className="AboutPage_Mine">
+        <h2>This is About Page</h2>
+      </div>
     </div>
   )
 }

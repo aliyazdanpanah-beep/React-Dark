@@ -31,5 +31,14 @@
         "text": "API"
       }
     ]
+  },
+  "About": {
+    "statos": true,
+    "data": [
+      {
+        "id": 4,
+        "titel": "About Page"
+      }
+    ]
   }
 }
