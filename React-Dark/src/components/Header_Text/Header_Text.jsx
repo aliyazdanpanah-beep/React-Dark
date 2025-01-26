@@ -1,7 +1,6 @@
 import "./Header_Text.css"
 
-const HeeaderText = (props) => {
-  console.log(props)
+const HeeaderText = () => {
   return (
     <div className="HeaderText_Wrapper">
       <h2>ALI</h2>

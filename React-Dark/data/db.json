@@ -21,5 +21,15 @@
         "secendBTN": "Experience the Extraordinary"
       }
     ]
+  },
+
+  "links": {
+    "statos": true,
+    "data": [
+      {
+        "id": 3,
+        "text": "API"
+      }
+    ]
   }
 }
