@@ -5,25 +5,31 @@ const FourdPage = () => {
   return (
     <div className="FourPage">
       <div className="Links_wrapper">
-        <span>Link</span>
+        <Link>Link</Link>
         <br />
-        <span>Link</span>
+        <Link>Link</Link>
         <br />
-        <span>Link</span>
+        <Link>Link</Link>
         <br />
-        <span>Link</span>
+        <Link>Link</Link>
       </div>
       <div className="Links_wrapper">
-        <span>Link</span>
-        <span>Link</span>
-        <span>Link</span>
-        <span>Link</span>
+      <Link>Link</Link>
+        <br />
+        <Link>Link</Link>
+        <br />
+        <Link>Link</Link>
+        <br />
+        <Link>Link</Link>
       </div>
       <div className="Links_wrapper">
-        <span>Link</span>
-        <span>Link</span>
-        <span>Link</span>
-        <span>Link</span>          
+        <Link>Link</Link>
+        <br />
+        <Link>Link</Link>
+        <br />
+        <Link>Link</Link>
+        <br />
+        <Link>Link</Link>          
       </div>
     </div>
   )
