@@ -1,4 +1,5 @@
 import FirstPage from "../FirstPage/FirstPage"
+import FourdPage from "../FourdPage/FourdPage"
 import SecendPage from "../SecendPage/SecndPage"
 import TreedPage from "../TreedPage/TreedPage"
 import "./Home.css"
@@ -9,6 +10,7 @@ return (
      <FirstPage />
      <SecendPage />
      <TreedPage />
+     <FourdPage />
   </div>
 )
 }
