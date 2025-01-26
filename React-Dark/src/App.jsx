@@ -1,14 +1,14 @@
-import FirstPage from "./page/FirstPage/FirstPage";
-import SecendPage from "./page/SecendPage/SecndPage";
-import TreedPage from "./page/TreedPage/TreedPage";
-import { BrowserRouter } from "react-router-dom"
+import About from "./page/About/About";
+import Home from "./page/Home/Home";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="section">
-      <FirstPage />
-      <SecendPage />
-      <TreedPage />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 };
