@@ -7,8 +7,8 @@ import "./FirstPage.css";
 
 const FirstPage = () => {
   const [navbar, setNavbar] = useState([]);
-  const [header, setHeader] = useState([]);
-  const [] = useState([])
+  const [headerText, setHeaderText] = useState([]);
+  const [header, setHeader] = useState([])
 
   useEffect(() => {
     // API call
@@ -19,22 +19,30 @@ const FirstPage = () => {
     });
 
     axios.get("http://localhost:8000/headerText").then((result) => {
-      setHeader(result.data.data);
+      setHeaderText(result.data.data);
       // console.log(result.data.data)
     });
+
+    axios.get("http://localhost:8000/header").then((Header) => {
+      setHeader(Header.data.data)
+    })
   }, []);
 
   return (
     <div className="First_Page">
-      <Header className="Header" />
+      {/* <Header className="Header" /> */}
 
       {/* <HeeaderText /> */}
+
+      {header.map((Hed) => (
+        <Header Data = {Hed} key={Hed.id} />
+      ))}
 
       {navbar.map((DataBase) => (
         <Navbar data={DataBase} key={DataBase.id} />
       ))}
 
-      {header.map((HeaderDate) => (
+      {headerText.map((HeaderDate) => (
         <HeeaderText TextData = {HeaderDate} key={HeaderDate.id} />
       ))}
     </div>
