@@ -7,7 +7,7 @@ const HeeaderText = (props) => {
 
       <button className="Button1_Header"> {props.TextData.btnTitel} </button>
       <br />
-      <button className="Button2_Header"> Experience the Extraordinary </button>
+      <button className="Button2_Header"> {props.TextData.btn2Titel} </button>
     </div>
   )
 }

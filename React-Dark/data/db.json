@@ -17,18 +17,33 @@
       {
         "id": 3,
         "titel": "Unlock The Power Of Dark",
-        "btnTitel": "SIGN IN OR LOG IN"
+        "btnTitel": "SIGN IN OR LOG IN",
+        "btn2Titel": "Create Account"
       }
     ]
   },
 
-  "user": { 
+  "user": {
     "statos": true,
     "data": [
       {
         "id": 2,
         "user": "ALI",
         "offic": "This is Abot Page"
+      }
+    ]
+  },
+
+  "header": {
+    "statos": true,
+    "data": [
+      {
+        "id": 4,
+        "home": "Home",
+        "about": "About",
+        "product": "Product",
+        "cotact": "Cotact",
+        "faq": "FAQ"
       }
     ]
   }

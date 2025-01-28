@@ -6,8 +6,9 @@ import axios from "axios";
 import "./FirstPage.css";
 
 const FirstPage = () => {
-  const [navbar, setNavbar] = useState([""]);
+  const [navbar, setNavbar] = useState([]);
   const [header, setHeader] = useState([]);
+  const [] = useState([])
 
   useEffect(() => {
     // API call
