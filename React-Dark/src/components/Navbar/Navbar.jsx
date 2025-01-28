@@ -19,8 +19,8 @@ const Navbar = (props) => {
     }
   };
 
-  const data = props.data
-  console.log(props.data.home)
+  // const data = props.data
+  // console.log(props.data.home)
 
   return (
     <div className="Navbar_wrapper">

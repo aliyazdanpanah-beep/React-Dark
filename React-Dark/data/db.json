@@ -4,19 +4,31 @@
     "data": [
       {
         "id": 1,
-        "home": "Get data from API",
-        "job": "Get data from API",
-        "new": "Get data from API"
+        "home": "Home",
+        "job": "Job",
+        "new": "New"
       }
     ]
   },
 
-  "About": {
+  "headerText": {
     "statos": true,
     "data": [
       {
-        "id": 4,
-        "titel": "About Page"
+        "id": 3,
+        "titel": "Unlock The Power Of Dark",
+        "btnTitel": "SIGN IN OR LOG IN"
+      }
+    ]
+  },
+
+  "user": { 
+    "statos": true,
+    "data": [
+      {
+        "id": 2,
+        "user": "ALI",
+        "offic": "This is Abot Page"
       }
     ]
   }
