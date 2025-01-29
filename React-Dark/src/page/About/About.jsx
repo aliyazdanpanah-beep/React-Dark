@@ -21,7 +21,7 @@ const About = () => {
     axios
       .get("http://localhost:8000/user")
       .then((res) => {
-        setApi(res.data.data)
+        setApi(res.data.data);
         console.log(res.data.data);
       })
       .catch((error) => {
