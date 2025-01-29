@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import Navbar from "../Navbar/Navbar";
 
-const Header = (props) => {
+const Header = () => {
   // const Icon = document.getElementById('icon')
   // const Navbar = document.getElementById('Navbar')
   return (
     <div className="header_wrapper">
       <div className="header_part">
-        <Link className=" Links" to={"/"}> {props.Data.home} </Link>
+        <Link className=" Links" to={"/"}>Home</Link>
       </div>
 
       <div className="header_part">
-        <Link className=" Links" to={"/about"}> {props.Data.about} </Link>
-        <span> {props.Data.product} </span>
-        <span> {props.Data.cotact} </span>
-        <span> {props.Data.faq} </span>
+        <Link className=" Links" to={"/about"}>About</Link>
+        <span>Game</span>
+        <span>Cotact</span>
+        <span>FAQ</span>
       </div>
     </div>
   );
