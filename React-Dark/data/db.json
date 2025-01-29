@@ -34,16 +34,17 @@
     ]
   },
 
-  "header": {
+  "secendPage": {
     "statos": true,
     "data": [
       {
         "id": 4,
-        "home": "Home",
-        "about": "About",
-        "product": "Product",
-        "cotact": "Cotact",
-        "faq": "FAQ"
+        "firstH1": "Immerse Yourself in the Allure of Darkness: Unveil the Secrets of Our Captivating Homepage",
+        "secendH1": "Embrace the Allure",
+        "firstP": "Unveil the Beauty of the Dark: Discover the Captivating Secrets of Our Homepage",
+        "treedH1": "Delve into the Darkness",
+        "secendP": "Unlock the Mysteries of the Dark: Explore our Captivating Homepage",
+        "treedP": "Unveil the Secrets of the Dark: Embark on a Journey of Exploration through Our Captivating Homepage"
       }
     ]
   }
